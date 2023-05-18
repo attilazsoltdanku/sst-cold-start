@@ -1,0 +1,23 @@
+{
+  "name": "sst-cold-start-tool",
+  "version": "1.2.1",
+  "description": "Check your lambdas file size and optimize them",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "postinstall": "node add-script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/attilazsoltdanku/sst-cold-start.git"
+  },
+  "keywords": [
+    "serverless"
+  ],
+  "author": "Apexlab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/attilazsoltdanku/sst-cold-start/issues"
+  },
+  "homepage": "https://github.com/attilazsoltdanku/sst-cold-start#readme"
+}
